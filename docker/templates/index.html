@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block body %}
+  <div>
+    <div>
+      <h1>Flask In a Docker Container</h1>
+      <p>Oh, Yeah BOI!</p>
+    </div>
+    <div>
+      <img src="{{ url_for('static', filename='img/docker.png') }}"> 
+      <img src="{{ url_for('static', filename='img/flask.png') }}"> 
+    </div>
+ </div>
+{% endblock %}
